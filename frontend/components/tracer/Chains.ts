@@ -25,6 +25,17 @@ export const SupportedChains = [
         blockexplorerUrl: 'https://etherscan.io',
     },
     {
+        chainId: 8453,
+        id: 'base',
+        displayName: 'Base',
+        nativeTokenAddress: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
+        nativeSymbol: 'ETH',
+        coingeckoId: 'coingecko:ethereum',
+        defillamaPrefix: 'ethereum',
+        rpcUrl: 'https://base-mainnet.public.blastapi.io	',
+        blockexplorerUrl: 'https://basescan.io',
+    },
+    {
         chainId: 137,
         id: 'polygon',
         displayName: 'Polygon',
